@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What medical insurance provider does 37signals use in the United States?",
+    "ground_truth": "37signals provides medical insurance through Blue Cross Blue Shield PPO in the United States."
+  },
+  {
+    "question": "How much of the medical insurance premium does 37signals pay?",
+    "ground_truth": "37signals pays 75% of the medical insurance premium, while the employee pays 25%."
+  },
+  {
+    "question": "When are employees eligible for health insurance coverage?",
+    "ground_truth": "Employees are eligible for health insurance coverage on their first day of employment."
+  },
+  {
+    "question": "How many vacation and personal days do employees receive each year?",
+    "ground_truth": "Employees receive 20 days of vacation and personal time off each year, plus 11 local holidays."
+  },
+  {
+    "question": "What is the maximum vacation day balance an employee can accumulate?",
+    "ground_truth": "Vacation time can roll over year to year with a maximum bank of 27 days."
+  },
+  {
+    "question": "How often can employees take a paid sabbatical?",
+    "ground_truth": "Employees may take a six-week paid sabbatical every three years."
+  },
+  {
+    "question": "Does 37signals provide a bank of sick days?",
+    "ground_truth": "No. 37signals does not provide a bank of sick days and does not require employees to track sick days."
+  },
+  {
+    "question": "What are the summer work hours at 37signals?",
+    "ground_truth": "Employees work four-day work weeks from May 1 through August 31 each year."
+  },
+  {
+    "question": "How much parental leave can a primary caregiver receive?",
+    "ground_truth": "A primary caregiver can take up to 16 weeks of leave at 100% pay."
+  },
+  {
+    "question": "How much parental leave can a secondary caregiver receive?",
+    "ground_truth": "A secondary caregiver can take up to 6 weeks of leave at 100% pay."
+  },
+  {
+    "question": "How many days of bereavement leave are provided for the death of an immediate family member?",
+    "ground_truth": "Employees can take 10 days of bereavement leave for the death of an immediate family member."
+  },
+  {
+    "question": "How much does 37signals match for employee retirement contributions?",
+    "ground_truth": "37signals matches 100% of employee retirement contributions up to 6% of salary."
+  },
+  {
+    "question": "How much can employees expense for a home office setup during their first year?",
+    "ground_truth": "Employees can expense up to $3,000 for home office furniture, accessories, and equipment during their first year."
+  },
+  {
+    "question": "What is the monthly coworking space stipend?",
+    "ground_truth": "Employees can expense up to $200 per month for coworking space."
+  },
+  {
+    "question": "What happens on an employee's first day at 37signals?",
+    "ground_truth": "Employees log into Basecamp and receive a personalized onboarding project called 'Welcome, [your name]!' containing setup tasks, training materials, and onboarding information."
+  },
+  {
+    "question": "What is the role of a 37signals buddy?",
+    "ground_truth": "A 37signals buddy is an experienced employee outside the new hire's team who helps answer questions and assists the employee during onboarding."
+  },
+  {
+    "question": "When are employees eligible for profit sharing?",
+    "ground_truth": "Employees become eligible for profit sharing after two years of employment at 37signals."
+  },
+  {
+    "question": "What percentage of annual company profits does 37signals share with employees?",
+    "ground_truth": "37signals shares 10% of its annual company profits with employees."
+  },
+  {
+    "question": "How is severance calculated for employees with less than one year of service?",
+    "ground_truth": "Employees with less than one year of service are generally offered a lump sum payment equivalent to four weeks of pay."
+  },
+  {
+    "question": "How is severance calculated for employees with more than one year of service?",
+    "ground_truth": "Employees receive an additional two weeks of pay for every year of employment, with a maximum severance benefit of four months of pay."
+  }
+]
