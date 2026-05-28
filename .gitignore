@@ -1,0 +1,37 @@
+
+.env
+.env.*
+*.pem
+
+
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# VS Code & JetBrains
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# 4. DỮ LIỆU CỤC BỘ & DOCKER VOLUMES
+# ==========================================
+# Bỏ qua các thư mục sinh ra khi Docker map volume ra ngoài (nếu có)
+postgres_data/
+qdrant_data/
+
+# Bỏ qua các file log hệ thống sinh ra trong quá trình chạy
+*.log
+
