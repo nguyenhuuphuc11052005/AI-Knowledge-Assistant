@@ -12,7 +12,7 @@ import pandas as pd
 from datasets import Dataset
 from dotenv import load_dotenv
 load_dotenv() 
-# 1. Chỉ import Chat của Gemini, dùng HuggingFace cho Embedding
+
 # from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.embeddings import HuggingFaceEmbeddings # Dùng lại cục local xịn từ Giai đoạn 2
 from ragas.run_config import RunConfig 
