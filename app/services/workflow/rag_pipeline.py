@@ -1,16 +1,24 @@
 from sqlalchemy.orm import Session
-from langchain_community.chat_models import ChatOllama
+# from langchain_community.chat_models import ChatOllama
 from app.services.retrieval.search import advanced_search
 from app.services.workflow.memory import get_chat_history
 from app.services.generation.prompts import rag_prompt
 from app.models.domain import Conversation
+import os
+from langchain_groq import ChatGroq
+
 
 class KnowledgeAssistant:
     def __init__(self):
-        # Khởi tạo mô hình llama3.2 chạy local thông qua Ollama
-        self.llm = ChatOllama(model="llama3.2", temperature=0.1) 
-        # temperature=0.1 giúp câu trả lời nhất quán, bớt sáng tạo/ảo giác
-
+        groq_key = os.getenv("GROQ_API_KEY")
+        if not groq_key:
+            raise ValueError("❌ Không tìm thấy GROQ_API_KEY trong biến môi trường hoặc file .env!")
+        self.llm = ChatGroq(
+            model="meta-llama/llama-4-scout-17b-16e-instruct", 
+            temperature=0.1,
+            streaming=True # Vẫn bật streaming để giữ tính năng UI
+        )
+        
     def ask(self, query: str, user_id: int, user_role: str, session_id: str, db: Session):
         print(f"\n--- Bắt đầu xử lý luồng cho User: {user_id} | Role: {user_role} ---")
         
